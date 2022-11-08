@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header{
+  margin: auto;
+  height: 50px;
+  background-color: rgb(57, 9, 9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.nav{
+
+  width: 200px;
+  display: flex;
+  margin-right: 50px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  margin: 2px 2px;
+ 
+}
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+  align-self: center;
+  
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  align-self: center;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  align-self: center;
+  
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+  align-self: center;
+
+}
+
+.bg{
+  margin: auto 0;
+  font-size: larger;
+  font-weight: bold;
+
+}
+.body{
+  background-color: green ;
+
+}
+.webfront{
+  
+  display: flex;
+
+}
+.foo{
+  display: inline-block;
+}
+
+
+.search-icon{
+  width: 20px;
+  cursor: pointer;
+}
+.text2{
+  width: 700px;
+  height: 30px;
+}
+.child{
+  border: 1px solid rgb(5, 81, 70);
+  border-radius: 10px;
+  flex: 2.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: ;
+  margin-left: 250px;
+  height: 120vh;
+  background-color: lightblue;
+  padding: 10px 10px;
+}
+
+
+
+
+.bar{
+  width: 100px;
+  cursor: pointer;
+}
+.bt1{
+  width: 50px;
+  cursor: pointer;
+  border: 1px solid ;
+
+}
+.p1{
+  
+  cursor: pointer;
+
+}
+.fatcat{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.container p{
+  display: flex;
+  overflow: auto;
+  width: 200px;
+  height: 330px;
+  text-align: start;
+}
+.box1{
+  background-color: grey;
+  width: 40%;
+  height: 350px;
+  
+}
+.box2{
+  background-color: grey;
+  width: 100%;
+  height: 350px;
+}
+.peach{
+  margin-top: 10px;
+  width: 150px;
+  position: relative;
+  left: 50px;
+  
+}
+table tr td{
+  border: 1px solid black;
+  width: 150px;
+}
+
+.black{
+  background-color: pink;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  border-radius: 10px;
+  
+}
+
+
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer1 {
+  background-image: url('./layer1.svg');
+}
+.layer2 {
+  background-image: url('./layer2.svg');
+  transform: rotateX(180deg);
+}
